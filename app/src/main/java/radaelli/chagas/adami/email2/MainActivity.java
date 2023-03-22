@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 // especificando que o programa so quer apps de email
                 i.setData(Uri.parse("mailto:"));
 
-
+                //criando um array de enderecos de email
                 String[] emails = new String[]{email};
                 // matriz de string de endereco de email
                 i.putExtra(Intent.EXTRA_EMAIL, emails);
