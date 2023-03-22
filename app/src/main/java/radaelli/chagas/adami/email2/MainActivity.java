@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 String texto = etTexto.getText().toString();
 
                 // criando a intent com a acao de enviar
-                Intent i = new Intent(Intent.ACTION_SENDTO);]
+                Intent i = new Intent(Intent.ACTION_SENDTO);
 
                 // especificando que o programa so quer apps de email
                 i.setData(Uri.parse("mailto:"));
